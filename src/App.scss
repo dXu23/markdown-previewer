@@ -15,6 +15,10 @@
   justify-content: center;
   flex: 1;
   gap: 1.8em;
+
+  & > * {
+    flex-basis: 45%;
+  }
 }
 
 #editor {
@@ -31,6 +35,10 @@
 
   .content {
     flex-direction: row;
+  }
+
+  .content > * {
+    flex-basis: 85%;
   }
 
   #editor {
