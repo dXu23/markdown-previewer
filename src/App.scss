@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  width: 95%;
+  margin: 0 auto;
+  padding: 0.3rem;
+}
+
+.heading {
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  gap: 1.8em;
+}
+
+#editor {
+  font-family: inherit;
+  padding: 1.3em;
+  min-width: 300px;
+  width: 100%;
+}
+
+@media screen and (min-width: 540px) {
+  #root {
+    padding: 2em;
+  }
+
+  .content {
+    flex-direction: row;
+  }
+
+  #editor {
+    width: 50%;
+  }
+
+}
